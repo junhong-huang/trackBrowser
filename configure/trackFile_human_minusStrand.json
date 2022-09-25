@@ -1,0 +1,58 @@
+{
+	"tracks":
+	[
+		{
+		"trackType": "bed",
+		"trackId": "t12",
+		"name": "refSeq genes",
+		"description": "refSeq genes",
+		"color": "29,32,136",	
+		"autoScale": "on",
+		"display": "full",
+		"viewLimits": "0:500",
+		"viewLimitsMax": "0:500",
+		"maxHeightPixels": "128:20:11",
+		"data": "./demo/trackData/hg38_refSeq_geneSymbol.bed.gz"
+    },
+		
+		{
+		"trackType": "bigWig",
+		"trackId": "t2",
+		"name": "5'-Start",
+		"description": "5'-Start",
+		"color": "228,26,28",	
+		"autoScale": "on",
+		"display": "full",
+		"viewLimits": "0:0.1",
+		"viewLimitsMax": "0:500",
+		"maxHeightPixels": "128:20:11",
+		"data": "./demo/trackData/hg38_SRR4235539_HepG2_RNAseq_rep1.rpm.minus.start.bw"
+    	},
+		{
+		"trackType": "bigWig",
+		"trackId": "t3",
+		"name": "3'-End",
+		"description": "3'-End",
+		"color": "55,126,184",	
+		"autoScale": "on",
+		"display": "full",
+		"viewLimits": "0:2",
+		"viewLimitsMax": "0:500",
+		"maxHeightPixels": "128:20:11",
+		"data": "./demo/trackData/hg38_SRR4235539_HepG2_RNAseq_rep1.rpm.minus.end.bw"
+    },
+		{
+		"trackType": "bigWig",
+		"trackId": "t4",
+		"name": "Coverage",
+		"description": "Coverage",
+		"color": "255,127,0",	
+		"autoScale": "on",
+		"display": "full",
+		"viewLimits": "0:5",
+		"viewLimitsMax": "0:500",
+		"maxHeightPixels": "128:20:11",
+		"data": "./demo/trackData/hg38_SRR4235539_HepG2_RNAseq_rep1.rpm.minus.coverage.bw"
+    }
+    ]
+}

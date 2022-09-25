@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<configure>
+  <width>210</width><!-- 210  -->
+  <height>200000</height>
+  <labelWidth>130</labelWidth>  <!-- 130 -->
+  <fontFamily>Arial</fontFamily>
+  <fontSize>8</fontSize><!-- 8 -->
+  <fontColor>black</fontColor>
+  <fillColor>black</fillColor>
+  <baseWidth>1</baseWidth>
+  <trackSpace>8</trackSpace>
+  <tickSize>5</tickSize>
+  <genomeFile>./demo/hg38.fa</genomeFile>
+</configure>

@@ -1,0 +1,12 @@
+#Expected run time for demo: within 5 seconds.
+
+perl plotTrackBrowser.pl \
+-org hg38 \
+-i ./demo/plot_region.bed \
+-upExtend 20 \
+-downExtend 20 \
+-upOffset 0 \
+-downOffset 0 \
+-out . \
+-t1 ./configure/trackFile_human_plusStrand.json \
+-t2 ./configure/trackFile_human_minusStrand.json
