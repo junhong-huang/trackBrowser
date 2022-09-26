@@ -64,7 +64,7 @@ Output:
 
 Visualized SVG images.<BR>Left: bigwig file of plusStrand.<BR>Right: bigwig file of minusStrand.<BR>
 
-<img src=".\results\chrY_14056154-14057020.png" alt="Visualized SVG images" style="zoom: 80%;" />
+<img src=".\results\demo_results.png" alt="Visualized SVG images" style="zoom: 80%;" />
 
 
 
