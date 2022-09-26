@@ -65,7 +65,7 @@ Output:
 
 Visualized SVG images<BR>
 
-<img src=".\results\chrY_14056154-14057020.png" alt="image-20220926095517453" style="zoom: 80%;" />
+<img src=".\results\chrY_14056154-14057020.png" alt="Visualized SVG images" style="zoom: 80%;" />
 
 
 
