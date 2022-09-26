@@ -31,11 +31,10 @@ No installation required.<BR>
 System requirements:
 ---------
 
-(1) Some self-developed perl modules are located in directory ./packages, which could be load by the perl command: <BR>"BEGIN { unshift( @INC, "./packages" ); }"<BR>(2) Some perl modules need to be installed<BR>Users can search for the module names in the website meta::cpan (https://metacpan.org/) and get the installation method in the 'installation instructions'. Generally, it can be installed using the cpanm command<BR>cpanm XML::Simple<BR>
+(1) Some self-developed perl modules are located in directory ./packages, which could be load by the perl command: <BR>"BEGIN { unshift( @INC, "./packages" ); }"<BR>(2) Some perl modules need to be installed.<BR>Users can search for the module names in the website meta::cpan (https://metacpan.org/) and get the installation method in the 'installation instructions'. Generally, it can be installed using the cpanm command.<BR>cpanm XML::Simple<BR>
 cpanm File::Basename<BR>
 cpanm SVG<BR>
 cpanm Bio::DB::BigFile<BR>
-cpanm Bio::DB::BigFile::Constants<BR>
 cpanm Bio::DB::BigWig<BR>
 cpanm JSON::Parse<BR>
 cpanm GD<BR>
@@ -47,13 +46,13 @@ Prerequisites:<BR>
 ---------
 
 (1) Genome:<BR>
-You can download genome of interest from UCSC: wget -c 'http://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.fa.gz'<BR>or use the demo genome we provided in demo directory: ./demo/hg38.chrY.fa<BR>
+You can download genome of interest from UCSC: wget -c 'http://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.fa.gz'<BR>or use the demo genome we provided in demo directory: ./demo/hg38.chrY.fa.<BR>
 
 (2)Track data:<BR>
-You can use your own sequencing data (bigwig format)<BR>or use the track data we provided in demo directory: ./demo/trackData<BR>
+You can use your own sequencing data (bigwig format)<BR>or use the track data we provided in demo directory: ./demo/trackData.<BR>
 
 (3) Configuration file:<BR>
-If you use the genome of another species, remember to change the contents of the genomeFile in the configuration file<BR>Customize the configuration file trackBrowserConfigure_{$org}.xml (e.g. ./configure/trackBrowserConfigure_hg38.xml) accorrding to your needs<BR>
+If you use the genome of another species, remember to change the contents of the genomeFile in the configuration file.<BR>Customize the configuration file trackBrowserConfigure_{$org}.xml (e.g. ./configure/trackBrowserConfigure_hg38.xml) accorrding to your needs.<BR>
 
 run trackBrowser:
 ---------
