@@ -62,7 +62,7 @@ perl plotTrackBrowser.pl -org hg38 -i ./demo/plot_region.bed -upExtend 20 -downE
 Output:
 ---------
 
-Visualized SVG images.<BR>Left: bigwig file of plusStrand.<BR>Right: bigwig file of minusStrand.<BR>
+Visualized SVG images.<BR>
 
 <img src=".\results\demo_results.png" alt="Visualized SVG images" style="zoom: 80%;" />
 
