@@ -31,17 +31,17 @@ No installation required.<BR>
 System requirements:
 ---------
 
-(1) Some self-developed perl modules are located in directory ./packages, which could be load by the perl command: <BR>"BEGIN { unshift( @INC, "./packages" ); }"<BR>(2) Some perl modules need to be installed<BR>Users can search for the module names in the website meta::cpan (https://metacpan.org/) and get the installation method in the 'installation instructions'. Generally, it can be installed using the cpanm command<BR>cpanm XML::Simple
-cpanm File::Basename
-cpanm SVG
-cpanm Bio::DB::BigFile
-cpanm Bio::DB::BigFile::Constants
-cpanm Bio::DB::BigWig
-cpanm JSON::Parse
-cpanm GD
-cpanm feature
-cpanm Bio::DB::HTS::Tabix
-cpanm Bio::DB::HTS::Faidx
+(1) Some self-developed perl modules are located in directory ./packages, which could be load by the perl command: <BR>"BEGIN { unshift( @INC, "./packages" ); }"<BR>(2) Some perl modules need to be installed<BR>Users can search for the module names in the website meta::cpan (https://metacpan.org/) and get the installation method in the 'installation instructions'. Generally, it can be installed using the cpanm command<BR>cpanm XML::Simple<BR>
+cpanm File::Basename<BR>
+cpanm SVG<BR>
+cpanm Bio::DB::BigFile<BR>
+cpanm Bio::DB::BigFile::Constants<BR>
+cpanm Bio::DB::BigWig<BR>
+cpanm JSON::Parse<BR>
+cpanm GD<BR>
+cpanm feature<BR>
+cpanm Bio::DB::HTS::Tabix<BR>
+cpanm Bio::DB::HTS::Faidx<BR>
 
 Prerequisites:<BR>
 ---------
@@ -65,7 +65,7 @@ Output:
 
 Visualized SVG images<BR>
 
-<img src="C:\Users\10519\AppData\Roaming\Typora\typora-user-images\image-20220926095517453.png" alt="image-20220926095517453" style="zoom: 80%;" />
+<img src=".\results\chrY_14056154-14057020.png" alt="image-20220926095517453" style="zoom: 80%;" />
 
 
 
