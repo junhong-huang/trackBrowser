@@ -3,8 +3,8 @@
 perl plotTrackBrowser.pl \
 -org hg38 \
 -i ./demo/plot_region.bed \
--upExtend 20 \
--downExtend 20 \
+-upExtend 50 \
+-downExtend 50 \
 -upOffset 0 \
 -downOffset 0 \
 -out . \
