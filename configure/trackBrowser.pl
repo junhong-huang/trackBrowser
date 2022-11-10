@@ -958,11 +958,11 @@ sub getLabelSize {
 
     my %fontHash = (
         'Arial' =>
-            '/public/home/huangjh/perlBioTools/trackBrowser/fonts/arial.ttf',
+            './fonts/arial.ttf',
         'Courier' =>
-            '/public/home/huangjh/perlBioTools/trackBrowser/fonts/cour.ttf',
+            './fonts/cour.ttf',
         'CMUBright-Roman' =>
-            '/public/home/huangjh/perlBioTools/trackBrowser/fonts/cmunbmr.ttf'
+            './fonts/cmunbmr.ttf'
     );
 
     my $font = $fontHash{$fontFamily};
@@ -1015,11 +1015,11 @@ sub getFixFontSize {
 
     my %fontHash = (
         'Arial' =>
-            '/public/home/huangjh/perlBioTools/trackBrowser/fonts/arial.ttf',
+            './fonts/arial.ttf',
         'Courier' =>
-            '/public/home/huangjh/perlBioTools/trackBrowser/fonts/cour.ttf',
+            './fonts/cour.ttf',
         'CMUBright-Roman' =>
-            '/public/home/huangjh/perlBioTools/trackBrowser/fonts/cmunbmr.ttf'
+            './fonts/cmunbmr.ttf'
     );
 
     my $font = $fontHash{$fontFamily};
